@@ -75,7 +75,7 @@ src/
 #### **🔐 Authentication Layer**
 - **AWS Cognito User Pools**: Role-based authentication (User/Lister)
 - **JWT Token Management**: Secure API access control
-- **Multi-factor Authentication**: Enhanced security for high-value transactions
+  
 
 #### **💾 Database Layer**
 - **Amazon RDS (PostgreSQL)**: Primary relational data
@@ -138,10 +138,7 @@ src/
 - **Similar Properties**: Content-based filtering
 - **User Behavior Analysis**: Interaction pattern recognition
 
-### **Amazon Rekognition**
-- **Image Analysis**: Automatic property feature detection
-- **Quality Assessment**: Image suitability scoring
-- **Content Moderation**: Inappropriate content filtering
+
 
 ---
 
@@ -153,11 +150,6 @@ src/
 - **Performance Tracking**: KPI monitoring and alerts
 - **Custom Reports**: Tailored insights for different user roles
 
-### **Real-time Analytics Pipeline**
-- **Amazon Kinesis**: Stream processing for live data
-- **AWS Glue**: ETL operations for data transformation
-- **Amazon Athena**: SQL queries on S3 data lakes
-- **CloudWatch**: System monitoring and alerting
 
 ---
 
@@ -204,7 +196,8 @@ src/
 - Lambda function integration points
 - RDS/DynamoDB data models
 - SES email notification preparation
-
+- AWS QuickSight Reaady
+- AWS Comprehend Ready
 ---
 
 ## 🚀 **Deployment & Infrastructure**
@@ -216,14 +209,8 @@ src/
 ### **Backend Infrastructure**
 - **API Gateway**: RESTful API management
 - **Lambda Functions**: Serverless compute
-- **VPC**: Secure network isolation
-- **IAM**: Fine-grained access control
 
-### **Monitoring & Observability**
-- **CloudWatch**: Comprehensive logging and metrics
-- **X-Ray**: Distributed tracing
-- **AWS Config**: Configuration compliance
-- **CloudTrail**: API audit logging
+
 
 ---
 
@@ -247,13 +234,6 @@ src/
 - **Market Intelligence**: Competitive analysis and pricing insights
 - **Communication Tools**: Integrated messaging with buyers
 
-### **Advanced Analytics Features**
-- **Conversion Funnels**: View-to-offer-to-sale tracking
-- **Performance Metrics**: Property engagement analytics
-- **Market Trends**: Comparative market analysis
-- **User Behavior**: Interaction pattern analysis
-- **ROI Tracking**: Investment performance monitoring
-- **Predictive Analytics**: Market forecasting capabilities
 
 ---
 
@@ -335,9 +315,7 @@ src/
 ### **Technology Stack**
 - **Frontend**: React 18, TypeScript, Tailwind CSS, Framer Motion
 - **Backend**: AWS Lambda, Node.js, PostgreSQL, DynamoDB
-- **Infrastructure**: AWS CDK, CloudFormation
 - **CI/CD**: GitHub Actions, AWS CodePipeline
-- **Monitoring**: CloudWatch, X-Ray, DataDog
 
 ### **Development Workflow**
 - **Git Flow**: Feature branches with pull request reviews
